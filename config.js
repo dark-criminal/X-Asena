@@ -10,10 +10,7 @@ module.exports = {
   SESSION_ID: process.env.SESSION_ID ||null,
   LANG: process.env.LANG || "EN",
   AUTH_TOKEN: "",
-  HANDLERS:
-    process.env.HANDLER === "false" || process.env.HANDLER === "null"
-      ? "^"
-      : "[#]",
+  HANDLERS: ".",
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "main",
   WARN_COUNT: 3,
